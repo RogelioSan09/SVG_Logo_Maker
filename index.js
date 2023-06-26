@@ -1,7 +1,7 @@
 // Include packages needed for this application
-const inquirer = require('inquirer');
+const inquirer = require('inquirer')
 const fs = require('fs');
-const generateSVG = require('./utils/shapes.js');
+const {Circle, Triangle, Square, Text} = require('./utils/shapes.js');
 
 // Created an array of questions for user input
 const questions = [];
